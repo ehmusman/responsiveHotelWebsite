@@ -7,7 +7,11 @@ name: Responsive Hotel Website Using Media Query
 on:
   push:
     branches: [ master ]
- 
+  # Also trigger on page_build, as well as release created events
+  page_build:
+  release:
+    types: # This configuration does not affect the page_build event above
+      - created
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
