@@ -78,16 +78,16 @@ h3 {
     padding: 30px 0;
 }
 
-.my-1 {
-    padding: 10px 0;
+.mx-1 {
+    margin: 0 10px;
 }
 
-.my-2 {
-    padding: 20px 0;
+.mx-2 {
+    margin: 0 20px;
 }
 
-.my-3 {
-    padding: 30px 0;
+.mx-3 {
+    margin: 0 30px;
 }
 
 .pxy-1 {
@@ -394,7 +394,7 @@ section#input label {
 }
 
 .contact {
-    width: 100%;
+    width: 80%;
 }
 
 #name,
